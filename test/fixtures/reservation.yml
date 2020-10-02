@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+unpaid_reservation:
+  user: user
+  ticket: event_one_even
+  amount: 2
+  total_price: 2
+  paid: false
+
+paid_reservation:
+  user: user
+  ticket: event_one_even
+  amount: 2
+  total_price: 2
+  paid: true
+
+unpaid_reservation_for_past_event:
+  user: user
+  ticket: past_event_ticket
+  amount: 1
+  total_price: 1
+  paid: false
+

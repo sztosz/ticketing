@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+event_one_even:
+  name: Even Ticket
+  option: even
+  initial_amount: 10
+  price: 1
+  event: event_one
+
+event_one_all_together:
+  name: All Together Ticket
+  option: all together
+  initial_amount: 20
+  price: 2
+  event: event_one
+
+event_one_avoid_one:
+  name: Avoid One Ticket
+  option: avoid one
+  initial_amount: 30
+  price: 3
+  event: event_one
+
+past_event_ticket:
+  name: Ticket for past event
+  option: avoid one
+  initial_amount: 30
+  price: 1
+  event: past_event
